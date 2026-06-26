@@ -43,7 +43,7 @@ module.exports = async (req, res) => {
         let lyricsData = { type: 'none', lines: [] };
         if(title&&artist){try{const lrc=await makeRequest({hostname:'lrclib.net',path:'/api/search?q='+encodeURIComponent(title+' '+artist),method:'GET',headers:{'User-Agent':'Mozilla/5.0 Chrome/120.0.0.0'},rejectUnauthorized:false,timeout:15000},null);if(Array.isArray(lrc)&&lrc.length>0){const b=lrc[0];if(b.syncedLyrics)lyricsData={type:'synced',lines:parseSyncedLyrics(b.syncedLyrics)};else if(b.plainLyrics)lyricsData={type:'plain',lines:parsePlainLyrics(b.plainLyrics)};}}catch(e){}}
 
-        const result = { status: true, input: { id: videoId }, result: { videoId, title, artist, album, lyrics: lyricsData, creator: 'Nanzz' } };
+        const result = { status: true, input: { id: videoId }, result: { videoId, title, artist, album, lyrics: lyricsData, creator: 'blazify' } };
         removeKeysRecursive(result, ['creator']);
         res.status(200).json(result);
     } catch(e) { res.status(500).json({ status: false, message: 'Gagal: '+e.message }); }
