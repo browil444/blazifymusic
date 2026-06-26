@@ -32,7 +32,7 @@ const App={
                 <div class="flex justify-between"><span class="text-[#6b7280] text-sm">TikTok</span><span class="text-[#cfd3d8] font-bold text-sm">@vertzy444</span></div>
             </div>
             
-            <a href="https://whatsapp.com/channel/0029Vb8cslf8aKvEpFOaMC0m" target="_blank" class="flex items-center justify-center gap-2 w-full max-w-sm mx-auto btn-chrome font-bold py-4 rounded-full active:scale-95 transition-all">
+            <a href="https://whatsapp.com/channel/0029VbDBd8n9xVJgn6jobx1i" target="_blank" class="flex items-center justify-center gap-2 w-full max-w-sm mx-auto btn-chrome font-bold py-4 rounded-full active:scale-95 transition-all">
                 <i data-lucide="message-circle" class="w-4 h-4"></i>Gabung Channel WhatsApp
             </a>
         </div>`;
