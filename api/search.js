@@ -114,6 +114,6 @@ module.exports = async (req, res) => {
     });
 
   } catch (err) {
-    return res.status(500).json({ status: false, creator: 'Nanzz', message: err.message });
+    return res.status(500).json({ status: false, creator: 'Blazify', message: err.message });
   }
 };
