@@ -62,7 +62,7 @@ module.exports = async (req, res) => {
             }
         } catch(e) {}
 
-        const result = { status: true, input: { id: artistId }, result: { artistId, name, thumbnails, topSongs, topAlbums, topSingles, topVideos, featuredOn, similarArtists, creator: 'Nanzz' } };
+        const result = { status: true, input: { id: artistId }, result: { artistId, name, thumbnails, topSongs, topAlbums, topSingles, topVideos, featuredOn, similarArtists, creator: 'Blazify' } };
         removeKeysRecursive(result, ['creator']);
         res.status(200).json(result);
     } catch(e) { res.status(500).json({ status: false, message: 'Gagal: '+e.message }); }
