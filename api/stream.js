@@ -105,7 +105,7 @@ module.exports = async (req, res) => {
             result: {
                 url: audioUrl,
                 type: 'mp3',
-                creator: 'Nanzz'
+                creator: 'Blazify'
             }
         });
 
