@@ -15,13 +15,13 @@ const App={
                 <img src="dev.jpeg" class="absolute inset-0 w-full h-full object-cover" onerror="this.style.display='none'" />
             </div>
             <h1 class="text-3xl font-black chrome-text mb-1">Blazify</h1>
-            <p class="text-[#b3b3b3] text-sm mb-6">Streaming Musik YouTube dengan Lirik</p>
+            <p class="text-[#b3b3b3] text-sm mb-6">Streaming Musik dengan Lirik</p>
             
             <div class="glass rounded-2xl p-5 max-w-sm mx-auto space-y-3 text-left mb-4">
                 <h3 class="text-[#cfd3d8] font-bold text-sm uppercase tracking-wider mb-2 flex items-center gap-1.5"><i data-lucide="smartphone" class="w-3.5 h-3.5"></i>Aplikasi</h3>
                 <div class="flex justify-between"><span class="text-[#6b7280] text-sm">Nama</span><span class="text-white font-medium text-sm">Blazify</span></div>
                 <div class="flex justify-between"><span class="text-[#6b7280] text-sm">Versi</span><span class="text-white font-medium text-sm">v2.0.0</span></div>
-                <div class="flex justify-between"><span class="text-[#6b7280] text-sm">Dirilis</span><span class="text-white font-medium text-sm">Januari 2025</span></div>
+                <div class="flex justify-between"><span class="text-[#6b7280] text-sm">Dirilis</span><span class="text-white font-medium text-sm">Juni 2026</span></div>
                 <div class="flex justify-between"><span class="text-[#6b7280] text-sm">Framework</span><span class="text-white font-medium text-sm">HTML + Tailwind + JS</span></div>
                 <div class="flex justify-between"><span class="text-[#6b7280] text-sm">Hosting</span><span class="text-white font-medium text-sm">Vercel</span></div>
             </div>
