@@ -1,12 +1,12 @@
 {
-  "name": "nanzzmusify",
+  "name": "blazify",
   "version": "1.0.0",
-  "description": "NanzzMusify - Music Player with YouTube API",
+  "description": "Blazify - Music Player with YouTube API",
   "main": "api/search.js",
   "scripts": {
-    "start": "echo 'NanzzMusify running on Vercel'"
+    "start": "echo 'Blazify running on Vercel'"
   },
-  "author": "Nanzz",
+  "author": "Blazify",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.8",
