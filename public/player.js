@@ -13,7 +13,7 @@ function gid(id){return document.getElementById(id);}
 function updateOG(title,image){
     var t=document.querySelector('meta[property="og:title"]');if(!t){t=document.createElement('meta');t.setAttribute('property','og:title');document.head.appendChild(t);}t.setAttribute('content',title+' | NanzzMusify');
     var i=document.querySelector('meta[property="og:image"]');if(!i){i=document.createElement('meta');i.setAttribute('property','og:image');document.head.appendChild(i);}i.setAttribute('content',image||FI);
-    document.title=title+' - NanzzMusify';
+    document.title=title+' - Blazify';
 }
 
 const yt=document.createElement('script');yt.src="https://www.youtube.com/iframe_api";document.head.appendChild(yt);
